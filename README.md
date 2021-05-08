@@ -6,5 +6,5 @@
 
 ## Github Page Link
 
-
+https://b1wang.github.io/Lab6/
 
