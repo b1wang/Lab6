@@ -24,17 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
       entries.forEach((entry) => {
        
         let newPost;  
-
-        // CODE GOES HERE vvv
-
-        newPost = '<journal-entry entry="[object Object]">';
-
-        //document.append(newPost);
-        //newPost.entry = entry;
-
-        // CODE GOES HERE ^^^
-
-
+        newPost = document.createElement("journal-entry");
+        newPost.entry = entry;
+        let main = document.querySelector("main");
+        main.append(newPost);
 
         /* ------------- do not edit this code, it is for your debugging purposes ------------- */
         try {
